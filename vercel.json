@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "builds": [
+    { "src": "*.html", "use": "@vercel/static" },
+    { "src": "assets/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "^/$", "dest": "/index.html" },
+    { "src": "^/services$", "dest": "/services.html" },
+    { "src": "^/gallery$", "dest": "/gallery.html" },
+    { "src": "^/about$", "dest": "/about.html" },
+    { "src": "^/aftercare$", "dest": "/aftercare.html" },
+    { "src": "^/book$", "dest": "/book.html" },
+    { "src": "^/(.*)$", "dest": "/$1" }
+  ]
+}

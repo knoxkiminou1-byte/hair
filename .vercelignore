@@ -1,0 +1,14 @@
+app/
+components/
+lib/
+node_modules/
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+next.config.mjs
+next-env.d.ts
+postcss.config.js
+tailwind.config.ts
+tsconfig.json
+.eslintrc.json
